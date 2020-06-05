@@ -3,7 +3,7 @@ from selenium import webdriver
 
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging']) # Disables printing to console.
-driver = webdriver.Chrome(options=options)
+driver = webdriver.Chrome(options = options)
 
 driver.get('https://typings.gg/')
 sleep(0.3)
